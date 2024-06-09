@@ -2,9 +2,11 @@ from constants import Direction as G_Direction
 from pygame.math import Vector2 as PG_Vector2
 from collections import deque
 
-DEFAULT_SPEED = 1
-DEFAULT_SPEED_INCREMENT = 0.03
-DEFAULT_SIZE = 3
+from constants import (
+    SNAKE_DEFAULT_SIZE as DEFAULT_SIZE,
+    SNAKE_DEFAULT_SPEED as DEFAULT_SPEED,
+    SNAKE_DEFAULT_SPEED_INCREMENT as DEFAULT_SPEED_INCREMENT,
+)
 
 
 class Snake:

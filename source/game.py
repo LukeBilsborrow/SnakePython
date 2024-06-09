@@ -2,7 +2,7 @@ import random
 from events import EventHandler
 import constants as G_const
 import pygame
-from snake import Snake as G_Snake
+from source.snake import Snake as G_Snake
 from pygame.math import Vector2 as PG_Vector2
 import math
 
@@ -199,7 +199,6 @@ class Game:
                 fruit_pos = PG_Vector2(x, y)
             i += 1
 
-        print(f"fruit pos: {fruit_pos}")
         self.fruit_position = fruit_pos
 
     def handle_snake_collision(self):
@@ -274,7 +273,6 @@ class Game:
         #     dist_sum += tile_size - 1 if dist_sum != 0 else tile_size
 
     def draw_snake(self, screen: pygame.Surface, snake: G_Snake, tile_size: int, padding=0):
-        # print(f"draw_snake: {tile_size}")
         start_pad = 0
 
         # draw the snake head
