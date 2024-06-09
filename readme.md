@@ -1,26 +1,38 @@
-# Card Game Project
-
-This project was created for the "Advanced Programming with C++" module at UCLan, where it achieved a grade of 100/100.
+# Snake Game Implementation in Python
 
 ## Overview
 
-This project is a card game developed as part of a university assignment. For simplicity, the game simulates card moves without user interaction, with moves being randomly generated and displayed in text format.
+This repository contains a Python implementation of the classic Snake game. The project is part of a larger initiative to implement the same game across multiple programming languages, showcasing different approaches and techniques in each language.
+Project Purpose
 
-## Project Description
+The purpose of this project is to demonstrate how a simple game can be consistently implemented across different languages using a pseudocode design. This approach highlights the core logic and structure of the game while allowing for language-specific optimizations and idiomatic code.
+About This Version
 
-The main focus of the assignment was to demonstrate proficiency in C++ programming, particularly in the areas of smart pointers and object-oriented programming (OOP). The project adheres to strict guidelines, with no raw pointers allowed.  
-The card game serves as a practical application to showcase the use of smart pointers and the implementation of inheritance and OOP principles.  
-There was also a very strict naming guide provided which is why the use of these conventions in this project may seem over the top.  
-The project features a well-structured architecture, emphasizing modularity and adherence to best practices. However, due to time constraints, there may be some hacks and unfinished parts that require further polishing.
+This repository features the Python version of the Snake game, focusing on core Python programming practices and game development techniques. The game is designed to be language and library-agnostic, ensuring that the main logic can be easily understood and adapted to other environments.
 
-## Compiling
+## Installation
 
-This project is intended to be compiled against C++20  
-After compiling, ensure the files from the resources folder are in the same directory as your exe.
+Clone the repository:
 
-## Notes
+```bash
+git clone https://github.com/LukeBilsborrow/Snake.git
+cd snake-game-python
+```
 
-- This project was developed within the scope of a university assignment and may not be fully optimized or polished for production use.
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Game
+
+The game.py file contains the entrypoint for the program and access to config variables
+
+```bash
+
+python game.py
+```
 
 ## License
 
