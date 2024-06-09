@@ -2,11 +2,13 @@
 
 ## Overview
 
-This repository contains a Python implementation of the classic Snake game. The project is part of a larger initiative to implement the same game across multiple programming languages, showcasing different approaches and techniques in each language.
-Project Purpose
+This repository contains a Python implementation of the classic Snake game. The project is part of a larger initiative to implement the same game across multiple programming languages.
+
+## Project Purpose
 
 The purpose of this project is to demonstrate how a simple game can be consistently implemented across different languages using a pseudocode design. This approach highlights the core logic and structure of the game while allowing for language-specific optimizations and idiomatic code.
-About This Version
+
+## About This Version
 
 This repository features the Python version of the Snake game, focusing on core Python programming practices and game development techniques. The game is designed to be language and library-agnostic, ensuring that the main logic can be easily understood and adapted to other environments.
 
@@ -15,7 +17,7 @@ This repository features the Python version of the Snake game, focusing on core 
 Clone the repository:
 
 ```bash
-git clone https://github.com/LukeBilsborrow/Snake.git
+git clone https://github.com/LukeBilsborrow/SnakePython.git
 cd snake-game-python
 ```
 
