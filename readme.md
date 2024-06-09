@@ -18,7 +18,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/LukeBilsborrow/SnakePython.git
-cd snake-game-python
+cd SnakePython
 ```
 
 Install the required dependencies:
@@ -33,7 +33,7 @@ The game.py file contains the entrypoint for the program and access to config va
 
 ```bash
 
-python game.py
+python example.py
 ```
 
 ## License
