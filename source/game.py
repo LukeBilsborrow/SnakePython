@@ -47,7 +47,6 @@ class Game:
     player_score: int = 0
 
     def __init__(self, board_tiles: int = 10, base_speed: float = 4, resolution: int = 801):
-        # first calculate the
 
         self.handler = EventHandler()
         self.add_event_handlers()
@@ -58,7 +57,7 @@ class Game:
         self.clock = pygame.time.Clock()
         self.next_direction = G_const.Direction.RIGHT
         self.snake = G_Snake(PG_Vector2(3, 3), self.next_direction, base_speed)
-        #
+
         # additional setup
         pygame.font.init()
         font_size = int((self.ui_height * 1.45))
@@ -264,18 +263,10 @@ class Game:
                 screen, (255, 0, 0), (start_pad, x_start + self.ui_height), (max_dim, x_start + self.ui_height)
             )
 
-        # dist_sum = 0
-        # while dist_sum <= grid_dim - 1:
-        #     cur_dim += dist_sum
-        #     pygame.draw.line(screen, (255, 0, 0), (cur_dim, start_pad), (cur_dim, max_dim))
-        #     pygame.draw.line(screen, (255, 0, 0), (start_pad, cur_dim), (max_dim, cur_dim))
-
-        #     dist_sum += tile_size - 1 if dist_sum != 0 else tile_size
-
     def draw_snake(self, screen: pygame.Surface, snake: G_Snake, tile_size: int, padding=0):
         start_pad = 0
 
-        # draw the snake head
+        # draw the snake head in a different colour
         head = snake.cells[0]
         x = start_pad + int(head.x * (tile_size - 1))
         y = start_pad + int(head.y * (tile_size - 1))
